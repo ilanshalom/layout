@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tempo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toStartOf="@+id/imageView3"
+        android:src="@drawable/tempo" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:onClick="Voltar"
+        android:text="Voltar"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tempo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tempo"
+        android:layout_toRightOf="@+id/imageView1"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button7"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@+id/button7"
+        android:text="O botão Voltar (button7) possui: android:layout_below=&quot;@+id/imageView2&quot;  android:layout_toRightOf=&quot;@+id/imageView2&quot; e este texto possui: android:layout_below=&quot;@+id/button7&quot;          android:layout_toLeftOf=&quot;@+id/button7&quot;"
+        android:textColor="#000000"
+        android:textSize="17sp" />@+id/button7" android:layout_toLeftOf="@+id/button7""
+        android:textSize="20sp" />
+
+</RelativeLayout>
